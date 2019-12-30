@@ -192,8 +192,8 @@ impl FromStr for WirePaths {
 
 #[cfg(test)]
 mod tests {
-    use day_3_part_1;
-    use day_3_part_2;
+    use super::day_3_part_1;
+    use super::day_3_part_2;
 
     #[test]
     fn day_3_part_1_examples() {

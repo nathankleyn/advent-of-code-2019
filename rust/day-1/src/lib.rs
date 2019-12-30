@@ -42,8 +42,8 @@ fn day_1_fuel_for_fuel(mass: i32) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    use day_1_part_1;
-    use day_1_part_2;
+    use super::day_1_part_1;
+    use super::day_1_part_2;
 
     #[test]
     fn day_1_part_1_examples() {

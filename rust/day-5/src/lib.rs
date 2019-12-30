@@ -340,7 +340,7 @@ enum OpcodeResult<E> {
 
 #[cfg(test)]
 mod tests {
-    use Computer;
+    use super::Computer;
 
     #[test]
     fn day_5_part_1_examples() {

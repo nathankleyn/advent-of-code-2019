@@ -77,8 +77,8 @@ fn binay_instruction_exec(memory: &mut Vec<usize>, pointer: usize, opcode: Binar
 
 #[cfg(test)]
 mod tests {
-    use day_2_part_1;
-    use day_2_part_2;
+    use super::day_2_part_1;
+    use super::day_2_part_2;
 
     #[test]
     fn day_2_part_1_examples() {

@@ -80,8 +80,8 @@ impl PasswordMatchStatus {
 
 #[cfg(test)]
 mod tests {
-    use day_4_part_1;
-    use day_4_part_2;
+    use super::day_4_part_1;
+    use super::day_4_part_2;
 
     #[test]
     fn day_4_part_1_examples() {
@@ -106,6 +106,6 @@ mod tests {
 
     #[test]
     fn day_4_part_2_test_input() {
-        assert_eq!(day_4_part_2(172851, 675869), 0);
+        assert_eq!(day_4_part_2(172851, 675869), 1135);
     }
 }
